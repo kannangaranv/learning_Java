@@ -3,9 +3,14 @@ public class Hello {
     public static void main(String[] args) {
 
         int num1 = 5;
-        int num2 = 7;
-        int sum = num1 + num2;
+        byte num2 = 10;
+        short num3 = 15;
+        long num4 = 254778l;
 
-        System.out.println("Sum of these numbers: "+sum);
+        double num5 = 25.5;
+        float num6 = 30.5f;
+
+        char ch = 'A';
+        boolean bool = true;
     }
 }
