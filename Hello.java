@@ -1,11 +1,13 @@
 public class Hello {
 
     public static void main(String[] args) {
-        //literals
-        double num1 = 12e10;
-        double num2 = 12e-10;
-        System.out.println(num1);
-        System.out.println(num2);
+    
+        byte a = 10;
+        byte b = 30;
+
+        int result = a * b;
+
+        System.out.println("The result is: " + result);
         
     }
 }
