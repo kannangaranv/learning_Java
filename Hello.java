@@ -1,16 +1,11 @@
 public class Hello {
 
     public static void main(String[] args) {
-
-        int num1 = 5;
-        byte num2 = 10;
-        short num3 = 15;
-        long num4 = 254778l;
-
-        double num5 = 25.5;
-        float num6 = 30.5f;
-
-        char ch = 'A';
-        boolean bool = true;
+        //literals
+        double num1 = 12e10;
+        double num2 = 12e-10;
+        System.out.println(num1);
+        System.out.println(num2);
+        
     }
 }
