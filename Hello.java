@@ -2,11 +2,13 @@ public class Hello {
 
     public static void main(String[] args) {
     
-        int num1 = 7;
-        int num2 = 3;
-        boolean compare = num1 > num2;
+        int x =8;
 
-        System.out.println(compare);
+        if(x<10){
+            System.out.println("x is less than 10");
+        }else{
+            System.out.println("x is greater than or equal to 10");
+        }
         
     }
 }
